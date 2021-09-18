@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const BlogPage = ({data}) => {
   return (
-    <Layout pageTitle="My Blog Posts">
+    <Layout pageTitle="ブログ記事一覧">
       <ul>
         {
           data.allFile.nodes.map(node => (

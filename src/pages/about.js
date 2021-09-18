@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 // Step 2: Define your component
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
-      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+    <Layout pageTitle="自己紹介">
+      <p>こんにちは。私は Gatsby でこのサイトを作りました。</p>
     </Layout>
   )
 }
